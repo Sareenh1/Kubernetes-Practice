@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: my-nginx
   labels:
-    run: my-nginx
+    run:
 spec:
   ports:
   - port: 80
